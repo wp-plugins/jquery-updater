@@ -3,8 +3,8 @@ Contributors: ramoonus
 Donate link: http://www.ramoonus.nl
 Tags: jquery
 Requires at least: 3.0.0
-Tested up to: 3.2
-Stable tag: 1.6.0.1
+Tested up to: 3.2.0
+Stable tag: 1.6.2
 
 This plugin should only be used for development purposes, this plugin updates jQuery to the latest (stable) version.
 
@@ -12,7 +12,7 @@ This plugin should only be used for development purposes, this plugin updates jQ
 This plugin should only be used for development purposes, this plugin updates jQuery to the latest (stable) version.
 
 == Installation ==
-1. Upload `jquery-updater.php` to the `/wp-content/plugins/` directory
+1. Upload `jquery-updater/` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions == 
@@ -25,6 +25,20 @@ Its recommended to flush the cache after upgrading.
 Not relevant.
 
 == Changelog ==
+= 1.6.2 =
+* Updated jQuery to 1.6.2 (minified)
+
+= 1.6.1.1.1 =
+* Promise: less numbers when 1.6.2 comes out
+* Updated jQuery to 1.6.2 rc 1 (
+* Warning beta release: unminified, un-conflicted
+
+= 1.6.1.1 =
+* Adds jQuery.noConflict(); to the javascript file for compatibility 
+
+= 1.6.1 =
+* Updated jQuery to 1.6.1
+
 = 1.6.0.1 =
 * jQuery 1.6.1 rc 1 (fixes a known WP bug untill 3.2 is released)
 
