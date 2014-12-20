@@ -3,7 +3,7 @@ Contributors: Ramoonus
 Donate link: http://www.ramoonus.nl/donate/
 Tags: jquery, update, jquery ui, javascript, jq
 Requires at least: 3.0
-Tested up to: 3.9
+Tested up to: 4.1
 Stable tag: 2.1.1
 
 This plugin updates jQuery to the latest stable version on your website.
@@ -13,6 +13,9 @@ This plugin updates jQuery to the latest stable version on your website.
 
 For more about jQuery information visit [jquery.com](http://jquery.com)
 
+
+=== Dev version status ===
+[![Build Status](https://travis-ci.org/Ramoonus/jQuery-Updater.png?branch=master)](https://travis-ci.org/Ramoonus/jQuery-Updater)
 
 == Installation ==
 1. Upload `jquery-updater/` to the `/wp-content/plugins/` directory
