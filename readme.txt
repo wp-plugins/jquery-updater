@@ -2,9 +2,9 @@
 Contributors: Ramoonus
 Donate link: http://www.ramoonus.nl/donate/
 Tags: jquery, update, jquery ui, javascript, jq
-Requires at least: 3.0
+Requires at least: 3.9
 Tested up to: 4.1
-Stable tag: 2.1.1
+Stable tag: 2.1.3
 
 This plugin updates jQuery to the latest stable version on your website.
 
@@ -34,6 +34,12 @@ A: Using jQuery version 2 could break your site.
 
 
 == Changelog ==
+= 2.1.3 =
+* Updated jQuery to 2.1.3
+* Fixed a bug with jQuery Migrate not properly loading
+* Updated minimum WordPress version to 3.9
+* Removed some unit testing scripts
+
 = 2.1.1 =
 * Updated jQuery to 2.1.1
 
