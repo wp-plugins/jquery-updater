@@ -13,10 +13,6 @@ This plugin updates jQuery to the latest stable version on your website.
 
 For more about jQuery information visit [jquery.com](http://jquery.com)
 
-
-=== Dev version status ===
-[![Build Status](https://travis-ci.org/Ramoonus/jQuery-Updater.png?branch=master)](https://travis-ci.org/Ramoonus/jQuery-Updater)
-
 == Installation ==
 1. Upload `jquery-updater/` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
@@ -34,6 +30,9 @@ A: Using jQuery version 2 could break your site.
 
 
 == Changelog ==
+= dev =
+* Updated readme
+
 = 2.1.3 =
 * Updated jQuery to 2.1.3
 * Fixed a bug with jQuery Migrate not properly loading
